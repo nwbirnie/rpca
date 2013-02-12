@@ -7,6 +7,7 @@ import os
 def robust_pca(M):
     """ 
     Decompose a matrix into low rank and sparse components.
+    Computes the RPCA decomposition using Alternating Lagrangian Multipliers.
     Returns L,S the low rank and sparse components respectively
     """
     L = numpy.zeros(M.shape)
