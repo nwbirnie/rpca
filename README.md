@@ -1,7 +1,8 @@
 Robust Principal Components
 ====
 
-This is an implementation of the Robust Principal Components algorithm from [1]. 
+This is an implementation of the Robust Principal Components algorithm from [1] in Python. 
+The numpy library is used for basic matrix manipulation and SVD implementations. The optimisation algorithm employed is ALM (Alternating Lagrangian Multipliers.)
 
 
 
