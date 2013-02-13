@@ -1,8 +1,6 @@
 import math
 import Image
 import numpy.linalg
-import time
-import os
 
 def robust_pca(M):
     """ 
