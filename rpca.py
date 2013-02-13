@@ -1,5 +1,4 @@
 import math
-import Image
 import numpy.linalg
 
 def robust_pca(M):
